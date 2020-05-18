@@ -16,7 +16,7 @@ export default new Router({
   {
     path: '/detail/:id',
     name: 'detail',
-    component: () => import('@/pages/detail/detail')
+    component: () => import('@/pages/detail/Detail')
   }],
   scrollBehavior (to, from, savePosition) {
     return {x: 0, y: 0}
